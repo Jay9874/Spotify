@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    width: 100vw;
+    background-color: rgba(14, 13, 13, 0.966);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgba(14, 13, 13, 0.966);
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    height: 26px;
+    width: 26px;
+    padding: 0 6px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 6 4px;
+}
+
+.container {
+    min-height: 72vh;
+    color: black;
+    background-color: rgba(23, 205, 250, 0.493);
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 13px;
+}
+
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: rgba(20, 20, 20, 0.945);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 15px;
+}
+
+.brand li {
+    cursor: pointer;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 50vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 30px;
+    width: 70vw;
+}
+
+.songItems {
+    height: 35px;
+    display: flex;
+    background-color: rgb(219, 238, 151);
+    color: rgba(56, 53, 43, 0.856);
+    align-items: center;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 34px;
+    padding: 8px;
+}
+
+.timestamp {
+    margin: 0 3px;
+}
+
+.Banner {
+    cursor: pointer;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10px;
+    align-items: center;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
